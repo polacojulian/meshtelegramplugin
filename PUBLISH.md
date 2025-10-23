@@ -23,14 +23,14 @@ cd /Users/duboki/Desktop/meshtelegramplugin
 git push -u origin main
 ```
 
-That's it! Your plugin will be live at: `https://github.com/duboki/meshtelegramplugin`
+That's it! Your plugin will be live at: `https://github.com/polacojulian/meshtelegramplugin`
 
 ## Step 3: Install in MeshCentral
 
 Users can now install your plugin using:
 
 ```
-https://raw.githubusercontent.com/duboki/meshtelegramplugin/main/config.json
+https://raw.githubusercontent.com/polacojulian/meshtelegramplugin/main/config.json
 ```
 
 ---

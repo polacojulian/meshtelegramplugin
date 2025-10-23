@@ -9,7 +9,7 @@
 3. Click **Install Plugin**
 4. Paste this URL:
    ```
-   https://raw.githubusercontent.com/duboki/meshtelegramplugin/main/config.json
+   https://raw.githubusercontent.com/polacojulian/meshtelegramplugin/main/config.json
    ```
 5. Click **Install**
 6. **Configure your Telegram credentials** (see below)
@@ -19,7 +19,7 @@
 
 ```bash
 cd meshcentral-data/plugins/
-git clone https://github.com/duboki/meshtelegramplugin.git telegram-notifier
+git clone https://github.com/polacojulian/meshtelegramplugin.git telegram-notifier
 cd telegram-notifier
 # Edit telegram-notifier.js with your credentials
 # Restart MeshCentral
@@ -27,7 +27,7 @@ cd telegram-notifier
 
 ### Option 3: Download ZIP
 
-1. Download: https://github.com/duboki/meshtelegramplugin/archive/refs/heads/main.zip
+1. Download: https://github.com/polacojulian/meshtelegramplugin/archive/refs/heads/main.zip
 2. Extract to `meshcentral-data/plugins/telegram-notifier/`
 3. Configure credentials (see below)
 4. Restart MeshCentral

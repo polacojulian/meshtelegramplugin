@@ -55,7 +55,7 @@ Restart MeshCentral after making this change.
 
 1. Go to **My Server** → **Plugins** in MeshCentral
 2. Click **Install Plugin**
-3. Enter this URL: `https://raw.githubusercontent.com/duboki/meshtelegramplugin/main/config.json`
+3. Enter this URL: `https://raw.githubusercontent.com/polacojulian/meshtelegramplugin/main/config.json`
 4. Click **Install**
 5. The plugin will be downloaded and installed automatically
 
@@ -90,12 +90,12 @@ If you prefer manual installation:
 
 ```bash
 cd meshcentral-data/plugins/
-git clone https://github.com/duboki/meshtelegramplugin.git telegram-notifier
+git clone https://github.com/polacojulian/meshtelegramplugin.git telegram-notifier
 ```
 
 #### Method 2: Download ZIP
 
-1. Download: https://github.com/duboki/meshtelegramplugin/archive/refs/heads/main.zip
+1. Download: https://github.com/polacojulian/meshtelegramplugin/archive/refs/heads/main.zip
 2. Extract to: `meshcentral-data/plugins/telegram-notifier/`
 3. Configure credentials (see Step 3 above)
 4. Restart MeshCentral
