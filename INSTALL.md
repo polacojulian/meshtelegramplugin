@@ -36,7 +36,7 @@ cd telegram_notifier
 
 After installation, you MUST edit the plugin file:
 
-1. Navigate to: `meshcentral-data/plugins/telegram-notifier/telegram-notifier.js`
+1. Navigate to: `meshcentral-data/plugins/telegram_notifier/telegram_notifier.js`
 2. Find line 14 (obj.config section)
 3. Replace the placeholder credentials:
 
