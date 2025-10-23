@@ -361,7 +361,7 @@ module.exports.telegram_notifier = function(parent) {
     
     // Test function to verify Telegram connection (optional - uncomment to test)
     // Uncomment the lines below to test your Telegram bot on startup
-    /*
+
     console.log('🧪 Testing Telegram connection...');
     setTimeout(function() {
         obj.sendTelegramNotification({
@@ -380,8 +380,7 @@ module.exports.telegram_notifier = function(parent) {
             antivirus: []
         });
     }, 5000); // Test after 5 seconds
-    */
-    
+
     return obj;
 };
 
