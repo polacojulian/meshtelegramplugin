@@ -1,0 +1,21 @@
+{
+  "name": "MeshCentral Telegram Device Notifier",
+  "shortName": "telegram-notifier",
+  "version": "1.0.0",
+  "author": "Custom",
+  "description": "Sends Telegram notifications when new devices are registered to MeshCentral",
+  "hasAdminPanel": false,
+  "homepage": "https://github.com/duboki/meshtelegramplugin",
+  "changelogUrl": "https://raw.githubusercontent.com/duboki/meshtelegramplugin/main/changelog.md",
+  "configUrl": "https://raw.githubusercontent.com/duboki/meshtelegramplugin/main/config.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duboki/meshtelegramplugin.git"
+  },
+  "meshCentralCompat": "0.9.0",
+  "permissions": [],
+  "versionHistoryUrl": "https://raw.githubusercontent.com/duboki/meshtelegramplugin/main/changelog.md",
+  "installUrl": "https://raw.githubusercontent.com/duboki/meshtelegramplugin/main/config.json",
+  "downloadUrl": "https://github.com/duboki/meshtelegramplugin/archive/refs/heads/main.zip"
+}
+
