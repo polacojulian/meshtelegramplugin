@@ -2,14 +2,18 @@
 
 ## For MeshCentral Users
 
-### Option 1: Install via URL (Easiest - After Repository is Published)
+### Option 1: Install via URL (Easiest)
 
 1. Open MeshCentral web interface
 2. Go to **My Server** → **Plugins**
 3. Click **Install Plugin**
-4. Paste this URL:
+4. Paste one of these URLs:
    ```
    https://raw.githubusercontent.com/polacojulian/meshtelegramplugin/main/config.json
+   ```
+   OR
+   ```
+   https://github.com/polacojulian/meshtelegramplugin
    ```
 5. Click **Install**
 6. **Configure your Telegram credentials** (see below)

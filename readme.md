@@ -55,7 +55,9 @@ Restart MeshCentral after making this change.
 
 1. Go to **My Server** → **Plugins** in MeshCentral
 2. Click **Install Plugin**
-3. Enter this URL: `https://raw.githubusercontent.com/polacojulian/meshtelegramplugin/main/config.json`
+3. Enter one of these URLs:
+   - **Config URL**: `https://raw.githubusercontent.com/polacojulian/meshtelegramplugin/main/config.json`
+   - **OR GitHub Repo**: `https://github.com/polacojulian/meshtelegramplugin`
 4. Click **Install**
 5. The plugin will be downloaded and installed automatically
 

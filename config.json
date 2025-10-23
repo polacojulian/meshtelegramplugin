@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/polacojulian/meshtelegramplugin.git"
   },
-  "meshCentralCompat": "0.9.0",
+  "meshCentralCompat": ">=0.9.0",
   "permissions": [],
   "versionHistoryUrl": "https://raw.githubusercontent.com/polacojulian/meshtelegramplugin/main/changelog.md",
   "installUrl": "https://raw.githubusercontent.com/polacojulian/meshtelegramplugin/main/config.json",
