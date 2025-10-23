@@ -337,7 +337,6 @@ module.exports.telegram_notifier = function(parent) {
         req.end();
         console.log('📮 Request sent to Telegram API');
     };
-    };
     
     /**
      * Escape markdown special characters for Telegram
