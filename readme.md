@@ -138,11 +138,32 @@ You can customize the notification format by editing the `sendTelegramNotificati
 
 ## Troubleshooting
 
+### 🐛 Comprehensive Debugging Available!
+
+The plugin now includes extensive console logging. See **[DEBUG.md](DEBUG.md)** for detailed troubleshooting guide.
+
+### Quick Debug Steps
+
+1. **Check MeshCentral console** when starting - you should see:
+   ```
+   ===========================================
+   Telegram Notifier Plugin - Starting
+   ===========================================
+   ```
+
+2. **Watch for events** - Every MeshCentral event will be logged:
+   ```
+   📥 EVENT RECEIVED: addnode | NodeID: node//...
+   ```
+
+3. **Enable test mode** - Uncomment test code in plugin (see DEBUG.md)
+
 ### Not receiving notifications?
 
 1. **Check plugin is running**:
-   - Look in MeshCentral logs for `telegram-notifier` messages
-   - Enable debug mode in MeshCentral config
+   - Look for startup banner in console
+   - Look in MeshCentral logs for `telegram_notifier` messages
+   - See [DEBUG.md](DEBUG.md) for detailed logging info
 
 2. **Verify Telegram credentials**:
    - Test your bot token: `https://api.telegram.org/bot<TOKEN>/getMe`
@@ -154,6 +175,10 @@ You can customize the notification format by editing the `sendTelegramNotificati
 
 4. **Firewall issues**:
    - Ensure MeshCentral server can reach `api.telegram.org` (port 443)
+
+5. **Check events are being received**:
+   - Console should show `📥 EVENT RECEIVED:` for all events
+   - If no events, check MeshCentral event system
 
 ### Plugin not loading?
 
