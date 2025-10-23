@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/polacojulian/meshtelegramplugin/main/config.js
 
 ## Files in This Plugin
 
-- `telegram-notifier.js` - Main plugin code with antivirus detection
+- `telegram_notifier.js` - Main plugin code with antivirus detection
 - `config.json` - Plugin metadata (GitHub URLs already set)
 - `readme.md` - Complete documentation
 - `INSTALL.md` - Quick installation guide
@@ -59,7 +59,7 @@ https://raw.githubusercontent.com/polacojulian/meshtelegramplugin/main/config.js
 
 ## Important Note
 
-⚠️ **Security Reminder**: The current `telegram-notifier.js` includes example Telegram credentials. These are YOUR real credentials from the request. 
+⚠️ **Security Reminder**: The current `telegram_notifier.js` includes example Telegram credentials. These are YOUR real credentials from the request. 
 
 Consider:
 1. Creating a separate config file for credentials, OR

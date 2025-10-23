@@ -65,10 +65,10 @@ Restart MeshCentral after making this change.
 
 1. Navigate to your MeshCentral plugins directory:
    ```
-   meshcentral-data/plugins/telegram-notifier/
+   meshcentral-data/plugins/telegram_notifier/
    ```
 
-2. Open `telegram-notifier.js` in a text editor
+2. Open `telegram_notifier.js` in a text editor
 
 3. Find the `obj.config` section (around line 14) and replace with your credentials:
 
@@ -90,13 +90,13 @@ If you prefer manual installation:
 
 ```bash
 cd meshcentral-data/plugins/
-git clone https://github.com/polacojulian/meshtelegramplugin.git telegram-notifier
+git clone https://github.com/polacojulian/meshtelegramplugin.git telegram_notifier
 ```
 
 #### Method 2: Download ZIP
 
 1. Download: https://github.com/polacojulian/meshtelegramplugin/archive/refs/heads/main.zip
-2. Extract to: `meshcentral-data/plugins/telegram-notifier/`
+2. Extract to: `meshcentral-data/plugins/telegram_notifier/`
 3. Configure credentials (see Step 3 above)
 4. Restart MeshCentral
 
