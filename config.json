@@ -1,6 +1,6 @@
 {
   "name": "MeshCentral Telegram Device Notifier",
-  "shortName": "telegram-notifier",
+  "shortName": "telegram_notifier",
   "version": "1.0.0",
   "author": "polacojulian",
   "description": "Sends Telegram notifications when new devices are registered to MeshCentral",
